@@ -1,0 +1,117 @@
+# Ignore system folders
+.kiro/
+.work-folder-info/
+.idea/
+.agentic/
+.continue/
+.vscode/
+__pycache__/
+__MACOSX/
+.DS_Store
+Thumbs.db
+
+# Ignore versioned folders
+1.22/
+1.22'/
+
+# Ignore notebooks
+Environment.ipynb
+echo "*.execution"
+echo "*.graphs"
+echo "*.graph_execution_traces"
+
+# Ignore large model artifacts
+IITKML/Self_learning/Udemy/ZTM/NLP/loaded_model_SavedModel_format/
+IITKML/Self_learning/Udemy/ZTM\Milestone_Project2/tensorflow_hub/
+IITKML/Self_learning/Udemy/ZTM/Milestone_Project2/model_logs/
+IITKML/Self_learning/Udemy/ZTM/Milestone_Project2/logs/
+IITKML/Self_learning/Udemy/ZTM/Milestone_Project2/model_6_tribrid
+IITKML/Self_learning/Udemy/ZTM/NLP/loaded_model_SavedModel_format
+IITKML/Self_learning/Udemy/ZTM/Pytorch_DeepLearning/runs
+IITKML/Self_learning/Udemy/ZTM/Pytorch_DeepLearning/Food101_dataset
+IITKML/Self_learning/Udemy/ZTM/Pytorch_DeepLearning/prediction_images_Customdata_Model
+IITKML/Self_learning/Udemy/ZTM/Pytorch_DeepLearning/mlruns
+IITKML/Self_learning/Udemy/ZTM/Pytorch_DeepLearning/Transfer_learning
+IITKML/Self_learning/Udemy/ZTM/Pytorch_DeepLearning/runs
+IITKML/Self_learning/Udemy/ZTM/Pytorch_DeepLearning/data
+IITKML/Self_learning/Udemy/ressearch-agent
+IITKML/Self_learning/Deep Past Challenge - Translate Akkadian to English/deep-past-initiative-machine-translation
+IITKML/Self_learning/Hack2Skills/AIForall/Workshop2/rag-workshop-amazon-bedrock-knowledge-bases
+IITKML/Self_learning/Hack2Skills/AIForall/Workshop4/Building Intelligent AI agents with Amazon Bedrock and Strands/Workshop_Material
+IITKML/Self_learning/Udemy/ZTM/Pytorch_DeepLearning/data
+
+
+
+# Optional: ignore all .tempstate* files globally
+**/*.tempstate*
+
+# Optional: ignore all .h5 and .pb files (if not needed)
+*.h5
+*.pb
+*.hdf5
+*.kerasgit 
+*.csv
+*.zip
+*.7z
+*.txt
+*.pt
+*.pth
+*.data-00000-of-00001
+*.gz
+*.tar.gz
+*.tgz
+*.jpg
+*.png
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.tif
+*.ipynb_checkpoints
+*.env
+*.log
+*.lock
+*.tmp
+*.swp
+*.DS_Store
+*.idea
+*.venv
+*.agentic
+*.continue
+*.vscode
+*.txt
+*.json
+*.safetensors
+
+
+
+# Ignore experiment logs
+**/runs/
+
+# ML models
+*.keras
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# Python
+__pycache__/
+*.pyc
+
+# Git internals (CRITICAL)
+*.git/
+.git/
+
+# Large tools
+bfg.jar
+
+# Data & experiments
+results/
+Model_Checkpoint/
+
